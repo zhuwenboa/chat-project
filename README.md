@@ -43,9 +43,11 @@
 - I/O多路复用(最好使用epoll)
 - mysql *
 
-在Linux下运行
-gcc serve.c -lptread -lmysqlclient -o serve
-gcc client.c -lpthread -o client
+在Linux下运行 \
+gcc serve.c -lptread -lmysqlclient -o serve \
+gcc client.c -lpthread -o client \
 
 ./serve 
-./client IP地址(如本地回环 127.0.0.1)
+./client IP地址(如本地回环 127.0.0.1) 
+
+### 数据库建表流程在mysql文件中
