@@ -44,7 +44,7 @@
 - mysql *
 
 在Linux下运行
-gcc serve.c -lptread -lmysqlclient -o serve
+gcc serve.c -lptread -lmysqlclient -o serve \
 gcc client.c -lpthread -o client
 
 ./serve 
