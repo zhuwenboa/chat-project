@@ -51,3 +51,6 @@ gcc client.c -lpthread -o client \
 ./client IP地址(如本地回环 127.0.0.1) 
 
 ### 数据库建表流程在mysql文件中
+
+### 修改数据库信息
+- 在server.c中找到char* user, key, host, db. 更改为你的数据库信息即可
