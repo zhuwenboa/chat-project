@@ -45,7 +45,7 @@
 
 在Linux下运行 \
 gcc serve.c -lptread -lmysqlclient -o serve \
-gcc client.c -lpthread -o client \
+gcc client.c -lpthread -o client 
 
 ./serve 
 ./client IP地址(如本地回环 127.0.0.1) 
